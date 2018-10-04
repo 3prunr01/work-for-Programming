@@ -1,0 +1,32 @@
+# Read numbers from user
+
+
+print("Please enter in a Number")
+first_number = int (input())
+
+print("Please enter in another Number")
+second_number = int(input())
+
+print("Please enter in another Number")
+third_number = int(input())
+
+evens = 0
+odds = 0
+
+if(first_number % 2):
+  evens = evens + 1
+else:
+  odds = odds + 1
+
+  if(second_number % 2):
+    evens = evens + 1
+  else:
+    odds = odds + 1
+
+  if(third_number % 2):
+    evens = evens + 1
+  else:
+    odds = odds + 1
+
+  print("This is the total number of evens", evens)
+  print("This is the total numbber of odds", odds)
