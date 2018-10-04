@@ -1,0 +1,19 @@
+# wdwd
+#Gets the user to enter in a number
+print("Please Enter in a Whole Number") #Gets the user to enter in a number
+user_number = int (input() )  #This is a varable which allows the user to enter in a first number
+
+
+print("Please enter in another number") #Gets the user to enter in a number
+user_number2 = int (input() )   #This is a varable which allows the user to enter in a second number
+
+
+
+if(user_number == user_number2):    #This Statement says that if the two numbers are the same print out The two numbers are the same.
+  print("The two numbers are the same")
+
+elif(user_number > user_number2):   #This Statement says that if the fiest number is bigger than the second number print that out.
+  print("This number is less than the first number")
+
+elif(user_number < user_number2):
+  print("This number is less than the first number")  #This statement says that the first number is smaller than the second number print this out.
