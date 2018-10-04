@@ -1,0 +1,21 @@
+#Read in the current amount from the UserWarnin
+
+
+#This will show what inputs are avaivble to the UserWarning
+print("Press W,S,A,D to move in any direction")
+
+Role = input() #This allows the user to input
+
+if(Role == "W"):  #This is a if statement
+  print("Moving Foward")  #If the user inputs W the program will print this onto the screen
+
+elif (Role == "A"):   #This is a else if statement 
+  print("Moving Left")    #If the user inputs A the program will print this onto the screen
+
+elif(Role == "S"):    #This is a else if statement 
+  print("Moving backwards")  #If the user inputs S the program will print this onto the screen
+
+elif (Role == "D"):       #This is a else if statement 
+  print("Moving Right")    #If the user inputs D the program will print this onto the screen
+else:
+  print("I am not sure what direction that is")   #If the user puts a different letter this will show because we havent made anything other in the if statement
