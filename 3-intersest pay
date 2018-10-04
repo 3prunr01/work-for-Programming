@@ -1,0 +1,16 @@
+#Read in the current amount from the UserWarnin
+
+#This asks the usetr to enter in the current amoun
+print("Please Enter the Current Amount (£)")
+current_amount = float(input() )
+
+#This asks the usetr to enter in the current interest rate
+print("Please enter interest rate(%)")
+interest_rate = float( input())
+
+#This is how you work out a percentage
+interest_amout = (interest_rate / 100) * current_amount
+new_amount = current_amount + interest_amout
+
+#This allows you to run the prgram and uses a string 
+print("Your new amount is £" + str( round (new_amount, 2)))
