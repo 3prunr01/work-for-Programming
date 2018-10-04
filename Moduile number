@@ -1,0 +1,13 @@
+# wdwd
+#Gets the user to enter in a number
+print("Please Enter in a Whole Number")
+user_number = int (input() )
+
+
+
+
+if(user_number % 2 == 0):  #This is a piece of code which allowed the user to see if the number was even or odd
+  print("This is your number", user_number, "Is Even")  #This will print onto the screen if the outcome is True
+
+else:
+  print("The Number", user_number, "Is odd")  #This will print onto the screen if the outcome is False
