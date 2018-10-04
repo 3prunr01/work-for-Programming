@@ -1,0 +1,47 @@
+#ask User where to look and read user reponseivse 
+# 1 in the bedroom
+#2. the bathroom
+#3. in the lab 
+#4 in the kitchen
+
+#in the bed room ask the user where in the bedroom 
+#choices are as follows
+#under the bed
+#2 somewhere else
+# if choose under the bed then say found some socks but no battery read responsive 
+
+#if somewhere
+
+print("I need t find my battery can you help me, i have left in one of these spots") #This prints out onto the screen
+print("[1]The bedroom")   #This prints out onto the screen
+print("[2]The Bathroom")  #This prints out onto the screen 
+print("[3]The Lab")   #This prints out onto the screen
+print("[4] The Kitchen")  #This prints out onto the screen
+
+place = input() #This sets a varible
+
+if(place == "1"): #if statement says if in the bedroom where in the bed room?
+  print("Where in the bedroom?")
+  print("[1] under the bed")
+  print("[2] somewhere else")
+
+bedroom_place = input()
+
+if (bedroom_place == "under the bed"):
+    print("Found some socks but no batteries")
+else:
+      print("Found some mess but no Battery ")
+
+
+elif (place == "The Bathroom"):
+  print("Where in the Bathroom?")
+  print("[1] In the Bath tub")
+  print("[2] Somewhere else")
+
+bathroom_place = input()
+
+elif(bathroom_place == "In The Tub"):
+  print("Found Some Rubber duckeys but no batteries")
+else:
+  print("Not in the shower either Keep looking")
+  
