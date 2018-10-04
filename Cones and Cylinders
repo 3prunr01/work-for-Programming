@@ -1,0 +1,27 @@
+# Read numbers from user
+import math
+
+
+print("Please enter a shape: Cylinder or Cone")
+shape = input()
+
+print("Please enter the radius of the shape")
+radius = float(input())
+
+print("Please enter the hight of the shape")
+height = float(input())
+
+if(shape == "cylinder"):
+  volume = math.pi * (radius ** 2) * height
+elif(shape == "cone"):
+  volume = (math.pi * (radius ** 2 ) * height) / 3
+  print("The Volume of your", shape , "is", round(volume, 2))
+
+
+
+
+
+
+
+
+
