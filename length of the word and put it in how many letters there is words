@@ -1,0 +1,14 @@
+count = 0
+
+print("Please enter in a Word for the Robot")
+
+user_word = input()
+
+length = len(user_word)
+
+for count in range (0, length, 1,):
+  print(user_word)
+
+
+
+  count = count + 1
