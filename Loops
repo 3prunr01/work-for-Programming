@@ -1,0 +1,31 @@
+
+
+print("Please enter in a Number for the Robot")
+
+user_number = int (input())   #Allows the user to enter in a number
+
+NUM_FACES = 10  #This gives NUM_Face a Value
+
+if(user_number < NUM_FACES):  
+
+  for count in range(0,NUM_FACES, 1,):  #This means will start at 0 and end when it gets to the user user_number
+
+    print("#########")
+    print("#       #")
+    print("# O   O #")
+    print("|   V   |")
+    print("|  ---  |")
+    print("|_______|")
+
+elif(user_number > NUM_FACES):
+    
+    for count in range(0,NUM_FACES, 1,): 
+
+      print("#########")
+      print("#       #")
+      print("# O   O #")
+      print("|   V   |")
+      print("|  ---  |")
+      print("|_______|")
+
+
