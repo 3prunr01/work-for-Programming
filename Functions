@@ -1,0 +1,10 @@
+
+def try_glass_slipper_on(person):   #This is a Function
+  if(person == "Eldest Step Sister"):   #This is a if Statement 
+    print("The Sleeper doesnt Fit")     #This will print out if this statement is true
+  elif(person == "Youngest Step Sister"):   #This is a if Statement 
+    print("Sleeper doesnt Fit")   #This will print out if this statement is true
+  elif(person == "Cinderella"):   #This is a if Statement 
+    print("Sleeper fits")     #This will print out if this statement is true
+
+try_glass_slipper_on("Eldest Step Sister")
