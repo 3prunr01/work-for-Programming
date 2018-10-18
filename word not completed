@@ -1,0 +1,17 @@
+print("Please enter a character to display")
+character = input()
+
+print("Please enter total number of characters")
+total = int (input())
+
+print("Please Enter in a Number")
+number = int (input())
+
+
+for count in range (0, total,1):
+
+  if(number == total):
+    print(character, end="")
+  else:
+    print("-", end="")
+
