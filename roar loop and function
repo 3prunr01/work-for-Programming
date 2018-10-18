@@ -1,0 +1,16 @@
+
+def roar(num_roars):      #This is a Funcion
+  for count in range (0, num_roars, 1,):  #this is a loop that allows me to make a loop 
+      print("roar!")  #this prints out the word roar
+
+  if (num_roars < 3):   #This if statement says if the number is below 3 print out cough! cough!
+    print("cough! cough!")
+  elif(num_roars > 3):  #This if statement says if the number is above 3 print out a Loud Roar
+    print("Roar!")
+
+
+
+
+
+
+roar(4)   #this is the number that allows you to change how many roaars are printed out!
