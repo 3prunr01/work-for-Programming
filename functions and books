@@ -1,0 +1,15 @@
+def determine_order_of_books(first_book, second_book):
+
+
+
+  if(first_book < second_book):   #This is a if statement the firstbook followed by the second 
+    print("Order is first book followed by the second book")  #this prints it out
+  elif(second_book < first_book): #This is a if statement the second followed by the first
+    print("Order is second book followed by the first book")
+  elif(first_book == second_book):  #this is them both equal to the books
+    print("The order of the books doesnt matter")
+
+
+determine_order_of_books(7, 5)  #this is where the first book is bigger than the second book
+determine_order_of_books(1, 3)   #this is where the second book is bigger than the first book
+determine_order_of_books(4, 4)  #these books are the same
