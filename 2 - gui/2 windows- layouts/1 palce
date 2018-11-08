@@ -1,0 +1,69 @@
+from tkinter import *
+
+class Gui(Tk):
+
+    def __init__(self):
+
+        #intial the parent class (Tk)
+        super().__init__()
+
+
+        self.title("NewsLetter")
+
+        self.configure(bg="White",
+            height=1000,
+                        width=1000)
+
+        self.add_heading_label()
+        self.add_heading_label_Email()
+        self.add_instruction_label()
+        self.add.textbox()
+        self.add.button()
+
+
+    def add_heading_label(self):
+        #add components/width
+        self.heading_label = Label()
+        self.heading_label.place(x=30, y=34)
+
+        self.heading_label.configure(font="Arial 24",
+                                    text="Recieve Our NewsLetter")
+
+       
+                                
+    def add_instruction_label(self):
+        #add components/width
+        self.instruction_label = Label()
+        self.instruction_label.place(x=30, y=150)
+
+        self.instruction_label.configure(font="Arial 24",
+                                    text="Please Enter your Email below to recieve our newsletter")
+        
+
+
+        
+                                
+    def add_heading_label_Email(self):
+        #add components/width
+        self.heading_label = Label()
+        self.heading_label.place(x=30, y=250)
+
+        self.heading_label.configure(font="Arial 24",
+                                    text="Email:")
+
+         
+                                  
+    def add_textbox(self):
+        #add components/width
+        self.textbox = entry()
+        self.textbox.place(x=60, y=250)
+
+        self.textbox.configure(font="Arial 24")
+
+    
+
+    def add_button_Subscribe(self):
+
+        self.button.Subscribe = Button()
+        self.button.place(x=90,y=250)
+        self.button_Subscribe.configure(font="Arial 24")
